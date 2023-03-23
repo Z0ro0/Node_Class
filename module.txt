@@ -1,0 +1,5 @@
+module
+
+main.js 					<-		 module1.js
+var module = require('moduel1');			exports.함수이름 = 함수정의;
+module1.함수이름();
