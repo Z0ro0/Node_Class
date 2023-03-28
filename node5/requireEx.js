@@ -2,7 +2,7 @@ var http = require('http');
 
 var server = http.createServer();
 
-var port = 3100;
+var port = 3100;//포트 사용시 에러발생할 수 있음 숫자 바꿔서 사용
 server.listen(port, function () {
   console.log("웹 서버가 시작되었습니다. : %d", port);
 });
