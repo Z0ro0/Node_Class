@@ -2,7 +2,7 @@ var http = require('http');
 
 var server = http.createServer();
 
-var port = 3000;
+var port = 3100;
 server.listen(port, function () {
   console.log("웹 서버가 시작되었습니다. : %d", port);
 });
@@ -27,4 +27,5 @@ server.on("close", function () {
   console.log("서버가 종료됩니다.");
 });
 
-//ctrl c로 서버 나가야 3000에서 실행할 수 있음
+//ctrl c로 서버 나가야 3100에서 실행할 수 있음
+//localhost:3000 접속하면 웹에 초록색 주르륵 뜸
