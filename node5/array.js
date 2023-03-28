@@ -9,6 +9,7 @@ let array = [{
     price: 1500
 }];
 
-let popped = array.pop();//배열 요소 꺼내기
-console.log(popped);
+array.sort();
 console.log(array);
+
+console.log(array.reverse());
