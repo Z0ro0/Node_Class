@@ -1,0 +1,4 @@
+REST: Representational State Transfer
+월드와이드웹(www)와 같은 하이퍼미디어 시스템을 위한 소프트웨어 아키텍쳐
+REST 서버는 클라이언트로 하여금 http 프로토콜을 사용해 서버의 정보에 접근 및 변경을 가능하게 함
+정보는 text, xml, json 등 형식으로 제공
