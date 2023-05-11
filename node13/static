@@ -1,2 +1,9 @@
+/*
 app.use('요청 경로', express.static('실제 경로'));
 app.use('/', express.static(path.join(__dirname, 'public')));
+
+컨텐츠 요청 주소와 실제 컨텐츠의 경로를 다르게 만들 수 있음
+요청 주소 localhost:3000/stylesheets/style.css
+실제 컨텐츠 경로 public/stylesheets/style.css
+서버의 구조를 파악하기 어려워져서 보안에 도움이 됨
+*/
