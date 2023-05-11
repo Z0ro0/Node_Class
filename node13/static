@@ -1,0 +1,2 @@
+app.use('요청 경로', express.static('실제 경로'));
+app.use('/', express.static(path.join(__dirname, 'public')));
